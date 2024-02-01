@@ -6,7 +6,7 @@ class ToolkitShelf(Shelf):
 
     def __init__(self):
         # type: () -> None
-        Shelf.__init__(self, name="Batch Shelf")
+        Shelf.__init__(self, name="Utils_Shelf")
 
     def build(self):
         

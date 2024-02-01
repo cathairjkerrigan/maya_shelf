@@ -16,7 +16,7 @@ def build_enviroment():
 
 def reload(*args):
     # type: (Any) -> None
-    reload_module("rigging_toolkit", True)
+    reload_module("repos", True)
     cmds.evalDeferred(
         dedent(
             """
