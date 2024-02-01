@@ -58,7 +58,7 @@ def build_menu():
     if cmds.menu(MENU_NAME, query=True, exists=True):
         cmds.menu(MENU_NAME, edit=True, deleteAllItems=True)
     else:
-        cmds.menu(MENU_NAME, label="Batch Menu", parent="MayaWindow", tearOff=False)
+        cmds.menu(MENU_NAME, label="Utils Menu", parent="MayaWindow", tearOff=False)
 
     for data in MENU_ITEMS:
         name = data.pop("name")
