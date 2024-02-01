@@ -32,12 +32,12 @@ def build_menu():
 
     logger.info("Building Menu")
 
-    MENU_NAME = "batch_menu"
+    MENU_NAME = "utils_menu"
     MENU_ITEMS = [
         {
             "name": "create_cube",
             "command": "from maya import cmds;cmds.polyCube()",
-            "label": "Open Toolkit",
+            "label": "Create Cube",
         },
         {
             "name": "reload_toolkit",
